@@ -1,0 +1,28 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import type { MarkdownInstance } from 'astro';
+const matches = import.meta.glob<MarkdownInstance<{title : string; date : string}>>('./*.md',{eager: true});
+const posts = Object.values(matches)
+const years = new Set(posts.map(({frontmatter})=>new Date(frontmatter.date).getFullYear()))
+const compareRecent = (a:{frontmatter : {date : string}},b : {frontmatter : {date : string}}) => {
+  return new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime(); 
+}
+---
+<Layout>
+<main>
+  <img src="/Logo.svg" width="90px" height="90px" alt="김지홍 토마토 로고">
+  
+  <h1>jihongeek blog</strong></h1>
+  <p>'til i become professional software engineer.
+  </p>
+  {Array.from(years).sort().reverse().map((year)=><div><h2>{year}</h2> 
+    {
+      posts.filter(({frontmatter})=>frontmatter.date.includes(year.toString()))
+      .sort(compareRecent)
+      .map(({frontmatter,url})=> <div><a href={url}>{frontmatter.title}</a></div>)
+    } 
+    </div>)
+  }
+    </main>
+</Layout>
+
