@@ -10,11 +10,18 @@ const compareRecent = (a:{frontmatter : {date : string}},b : {frontmatter : {dat
 ---
 <Layout>
 <main>
+  <a href="/">
   <img src="/Logo.svg" width="90px" height="90px" alt="김지홍 토마토 로고">
+  </a>
   
-  <h1>jihongeek blog</strong></h1>
-  <p>'til i become professional software engineer.
+  <h1>김지홍 블로그.</strong></h1>
+  <p>
+    편히 읽다 가세요. <br>
   </p>
+    <small>
+    아직 댓글 기능이 없습니다. 글에 혹시 잘못된 내용이 있다면, 개인적으로 알려주시거나,
+    <a href="https://github.com/jihongeek/blog/issues">깃허브 저장소 이슈</a>에 남겨주시면 감사하겠습니다.
+    </small>
   {Array.from(years).sort().reverse().map((year)=><div><h2>{year}</h2> 
     {
       posts.filter(({frontmatter})=>frontmatter.date.includes(year.toString()))
