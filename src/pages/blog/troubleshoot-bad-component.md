@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogPostLayout.astro
 title: '문제해결 : 나쁜 컴포넌트'
-date: 2025-10-31
+date: '2025-10-31'
 description:
 ---
 
