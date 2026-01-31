@@ -70,6 +70,8 @@ date: 2026-1-27
 
 <video src="/homemade_pinch_zoom.mp4" controls width="300px"></video>
 
+구현 코드는 [여기](https://github.com/yeogidot/yeogidot-frontend/blob/main/src/components/FullPhotoLayout/FullPhotoLayout.tsx)서 확인하실 수 있습니다.
+
 ## 아쉬운 점
 
 데모 영상을 보시면 꽤 자연스럽습니만, 사실 실제로 사용해보면 아쉬운 점이 있습니다.
@@ -87,3 +89,8 @@ date: 2026-1-27
 
 아무튼 읽어 주셔서 감사하고, 글에 대한 질문이 있으시면 언제든지 말씀해주세요~
 감사합니다!
+
+## 같이 보기
+
+* [Pinch zoom gestures | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events/Pinch_zoom_gestures)
+* [Webview에서 핀치 줌(pinch zoom) 구현하기 | 카카오엔터테인먼트 테크블로그](https://tech.kakaoent.com/front-end/2023/230310-webview-pinch-zoom/)
