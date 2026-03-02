@@ -76,7 +76,7 @@ date: 2026-2-26
 
 그렇게 최종 제출 시간 약 1시간 전 까지 작업을 하고, 다른 프론트엔드 분이 PPT 작업을 하실동안 PPT에 필요한 사진을 준비하고 시연 영상을 녹화했습니다. 그리고 최종 제출이 끝이 났습니다.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wjejv_8RCzo?si=WxICqs_iu6YH9SBz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/wjejv_8RCzo?si=WxICqs_iu6YH9SBz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### 본선 발표
 
