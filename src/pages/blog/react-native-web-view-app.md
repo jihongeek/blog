@@ -141,7 +141,7 @@ export default function App() {
 
 보통 앱에서는 뒤로가기 시, 이전 화면으로 앱 화면이 변경되지만, 현재 상태에서는 앱 화면 상태 자체가 없기 때문에, 뒤로가기 시 아래 영상처럼 앱이 종료되어 버리는 문제가 있습니다.
 
-<video src="/public/yeogidot-back.mov" width="300px"  controls></video>
+<video src="/yeogidot-back.mov" width="300px"  controls></video>
 
 그렇기에 기본적인 뒤로가기 버튼 ui와 함께 뒤로가기 동작 시, 웹뷰에서 뒤로가기가 동작되게 앱을 수정해야 합니다.
 
